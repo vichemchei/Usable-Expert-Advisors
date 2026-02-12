@@ -1,0 +1,106 @@
+2025-11-17 09:13:52 | INFO | __main__ | 
+======================================================================
+2025-11-17 09:13:52 | INFO | __main__ | 🤖 RSI-MA-ATR ML TRADING BOT v2.0.1 (DEBUGGED)
+2025-11-17 09:13:52 | INFO | __main__ | ======================================================================
+2025-11-17 09:13:52 | INFO | __main__ | Mode: LIVE
+2025-11-17 09:13:52 | INFO | __main__ | Symbols: ['GOLDm#', 'EURUSDm#', 'GBPUSDm#', 'XAUEURm#', 'AUDUSDm#']
+2025-11-17 09:13:52 | INFO | __main__ | ML Enabled: False
+2025-11-17 09:13:52 | INFO | __main__ | 
+✅ FEATURES:
+2025-11-17 09:13:52 | INFO | __main__ |   • Enhanced debug logging
+2025-11-17 09:13:52 | INFO | __main__ |   • Fixed ML result unpacking
+2025-11-17 09:13:52 | INFO | __main__ |   • Detailed signal generation logging
+2025-11-17 09:13:52 | INFO | __main__ |   • 24/7 trading hours for testing
+2025-11-17 09:13:52 | INFO | __main__ |   • Comprehensive error tracking
+2025-11-17 09:13:52 | INFO | __main__ | ======================================================================
+
+2025-11-17 09:13:52 | INFO | RSIMLTradingBot | [32m======================================================================[0m
+2025-11-17 09:13:52 | INFO | RSIMLTradingBot | [32mRSI-MA-ATR ML TRADING BOT STARTED[0m
+2025-11-17 09:13:52 | INFO | RSIMLTradingBot | [32mMode: LIVE[0m
+2025-11-17 09:13:52 | INFO | RSIMLTradingBot | [32m======================================================================[0m
+2025-11-17 09:16:08 | INFO | __main__ | 
+======================================================================
+2025-11-17 09:16:08 | INFO | __main__ | 🤖 RSI-MA-ATR ML TRADING BOT v2.0.1 (DEBUGGED)
+2025-11-17 09:16:08 | INFO | __main__ | ======================================================================
+2025-11-17 09:16:08 | INFO | __main__ | Mode: LIVE
+2025-11-17 09:16:08 | INFO | __main__ | Symbols: ['GOLDm#', 'EURUSDm#', 'GBPUSDm#', 'XAUEURm#', 'AUDUSDm#']
+2025-11-17 09:16:08 | INFO | __main__ | ML Enabled: False
+2025-11-17 09:16:08 | INFO | __main__ | 
+✅ FEATURES:
+2025-11-17 09:16:08 | INFO | __main__ |   • Enhanced debug logging
+2025-11-17 09:16:08 | INFO | __main__ |   • Fixed ML result unpacking
+2025-11-17 09:16:08 | INFO | __main__ |   • Detailed signal generation logging
+2025-11-17 09:16:08 | INFO | __main__ |   • 24/7 trading hours for testing
+2025-11-17 09:16:08 | INFO | __main__ |   • Comprehensive error tracking
+2025-11-17 09:16:08 | INFO | __main__ | ======================================================================
+
+2025-11-17 09:16:08 | INFO | RSIMLTradingBot | [32m======================================================================[0m
+2025-11-17 09:16:08 | INFO | RSIMLTradingBot | [32mRSI-MA-ATR ML TRADING BOT STARTED[0m
+2025-11-17 09:16:08 | INFO | RSIMLTradingBot | [32mMode: LIVE[0m
+2025-11-17 09:16:08 | INFO | RSIMLTradingBot | [32m======================================================================[0m
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | [32mMT5 initialized successfully[0m
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | Account: 110109170 | Balance: $100.00
+2025-11-17 09:17:05 | INFO | RiskManager | [32m[DAILY RESET] Starting balance: $100.00[0m
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | [33mML DISABLED - Using rule-based signals only[0m
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | Rebuilding trailing stops from existing positions...
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | No existing positions to rebuild
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | Symbols: ['GOLDm#', 'EURUSDm#', 'GBPUSDm#', 'XAUEURm#', 'AUDUSDm#']
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | Magic Number: 234000
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | Risk per trade: 1.0%
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | ML Threshold: 0.60
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | Trading Hours: [(10, 24)]
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | Current Hour: 9:00
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | 
+======================================================================
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | 🔄 Cycle #1 - 2025-11-17 09:17:05
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | ======================================================================
+2025-11-17 09:17:05 | INFO | RSIMLTradingBot | 🔍 Analyzing GOLDm#...
+2025-11-17 09:17:05 | DEBUG | RSIMLTradingBot | --- Processing GOLDm# ---
+2025-11-17 09:17:06 | DEBUG | SignalGenerator | Technical State - RSI: 35.68, EMA_short: 4065.01044, EMA_long: 4073.97313, Price: 4058.32000, ATR: 6.04786
+2025-11-17 09:17:06 | DEBUG | SignalGenerator | Trend strength: 1.48 ATR
+2025-11-17 09:17:06 | DEBUG | SignalGenerator | Downtrend detected. Checking sell conditions...
+2025-11-17 09:17:06 | DEBUG | SignalGenerator |   prev_high >= ema_short: 4060.97000 >= 4065.71469 = False
+2025-11-17 09:17:06 | DEBUG | SignalGenerator |   close < ema_short: 4058.32000 < 4065.01044 = True
+2025-11-17 09:17:06 | DEBUG | SignalGenerator |   RSI in range: 30 < 35.68 < 65 = True
+2025-11-17 09:17:06 | DEBUG | RSIMLTradingBot | GOLDm#: No rule-based signal
+2025-11-17 09:17:06 | INFO | RSIMLTradingBot | 🔍 Analyzing EURUSDm#...
+2025-11-17 09:17:06 | DEBUG | RSIMLTradingBot | --- Processing EURUSDm# ---
+2025-11-17 09:17:06 | DEBUG | SignalGenerator | Technical State - RSI: 38.62, EMA_short: 1.15995, EMA_long: 1.16014, Price: 1.15969, ATR: 0.00019
+2025-11-17 09:17:06 | DEBUG | SignalGenerator | Trend strength: 1.05 ATR
+2025-11-17 09:17:06 | DEBUG | SignalGenerator | Downtrend detected. Checking sell conditions...
+2025-11-17 09:17:06 | DEBUG | SignalGenerator |   prev_high >= ema_short: 1.15975 >= 1.15997 = False
+2025-11-17 09:17:06 | DEBUG | SignalGenerator |   close < ema_short: 1.15969 < 1.15995 = True
+2025-11-17 09:17:06 | DEBUG | SignalGenerator |   RSI in range: 30 < 38.62 < 65 = True
+2025-11-17 09:17:06 | DEBUG | RSIMLTradingBot | EURUSDm#: No rule-based signal
+2025-11-17 09:17:06 | INFO | RSIMLTradingBot | 🔍 Analyzing GBPUSDm#...
+2025-11-17 09:17:06 | DEBUG | RSIMLTradingBot | --- Processing GBPUSDm# ---
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Technical State - RSI: 31.07, EMA_short: 1.31448, EMA_long: 1.31481, Price: 1.31384, ATR: 0.00025
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Trend strength: 1.31 ATR
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Downtrend detected. Checking sell conditions...
+2025-11-17 09:17:07 | DEBUG | SignalGenerator |   prev_high >= ema_short: 1.31393 >= 1.31454 = False
+2025-11-17 09:17:07 | DEBUG | SignalGenerator |   close < ema_short: 1.31384 < 1.31448 = True
+2025-11-17 09:17:07 | DEBUG | SignalGenerator |   RSI in range: 30 < 31.07 < 65 = True
+2025-11-17 09:17:07 | DEBUG | RSIMLTradingBot | GBPUSDm#: No rule-based signal
+2025-11-17 09:17:07 | INFO | RSIMLTradingBot | 🔍 Analyzing XAUEURm#...
+2025-11-17 09:17:07 | DEBUG | RSIMLTradingBot | --- Processing XAUEURm# ---
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Technical State - RSI: 37.32, EMA_short: 3504.19855, EMA_long: 3511.31601, Price: 3499.34000, ATR: 5.14143
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Trend strength: 1.38 ATR
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Downtrend detected. Checking sell conditions...
+2025-11-17 09:17:07 | DEBUG | SignalGenerator |   prev_high >= ema_short: 3502.03000 >= 3504.70998 = False
+2025-11-17 09:17:07 | DEBUG | SignalGenerator |   close < ema_short: 3499.34000 < 3504.19855 = True
+2025-11-17 09:17:07 | DEBUG | SignalGenerator |   RSI in range: 30 < 37.32 < 65 = True
+2025-11-17 09:17:07 | DEBUG | RSIMLTradingBot | XAUEURm#: No rule-based signal
+2025-11-17 09:17:07 | INFO | RSIMLTradingBot | 🔍 Analyzing AUDUSDm#...
+2025-11-17 09:17:07 | DEBUG | RSIMLTradingBot | --- Processing AUDUSDm# ---
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Technical State - RSI: 43.25, EMA_short: 0.65209, EMA_long: 0.65212, Price: 0.65189, ATR: 0.00019
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Trend strength: 0.19 ATR
+2025-11-17 09:17:07 | DEBUG | SignalGenerator | Trend too weak (0.19 < 0.5 ATR)
+2025-11-17 09:17:07 | DEBUG | RSIMLTradingBot | AUDUSDm#: No rule-based signal
+2025-11-17 09:17:07 | INFO | RSIMLTradingBot | 🎯 Managing trailing stops...
+2025-11-17 09:17:07 | INFO | RSIMLTradingBot | ======================================================================
+2025-11-17 09:17:07 | INFO | RSIMLTradingBot | ✅ Cycle #1 complete. Sleeping 60s...
+2025-11-17 09:17:07 | INFO | RSIMLTradingBot | ======================================================================
+
+2025-11-17 09:17:20 | INFO | RSIMLTradingBot | [33mBot stopped by user[0m
+2025-11-17 09:17:20 | INFO | RSIMLTradingBot | MT5 connection closed
+2025-11-17 09:17:21 | INFO | RSIMLTradingBot | [31mBot shutdown complete[0m
